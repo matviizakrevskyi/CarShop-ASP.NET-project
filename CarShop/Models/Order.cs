@@ -13,7 +13,7 @@ namespace CarShop.Models
         [Required(ErrorMessage = "Musisz wpisać swoje imię")]
         public string Name { get; set; }
 
-        [Required(ErrorMessage = "Musisz podać co najmniej jeden adres wysyłki")]
+        [Required(ErrorMessage = "Musisz podać adres wysyłki")]
         public string Line1 { get; set; }
         public string Line2 { get; set; }
         public string Line3 { get; set; }

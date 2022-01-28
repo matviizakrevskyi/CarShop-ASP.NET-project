@@ -11,6 +11,7 @@ h1.title {
 
 div#nav {
     text-align: center;
+    transition: 1s linear;
 }
 
     div#nav a {
@@ -22,11 +23,13 @@ div#nav {
         text-decoration: none;
         width: 200px;
         text-align: center;
+        transition: 3s linear;
     }
 
         div#nav a:hover {
             background: #888;
             color: white;
+            transition: 3s linear;
         }
 
 .adminContent {

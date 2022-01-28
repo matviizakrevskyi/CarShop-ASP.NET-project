@@ -72,12 +72,14 @@ p.actionButtons {
     padding: .15em 1.5em .2em 1.5em;
     background-color: #353535;
     border: 1px solid black;
+    transition: 3s linear;
 }
 div.item button {
     color: White;
     background-color: #333;
     border: 1px solid black;
     float: right;
+    transition: 3s linear;
 }
 
 div#categories a {
@@ -87,6 +89,7 @@ div#categories a {
     padding: .6em;
     color: Black;
     border-bottom: 1px solid silver;
+    transition: 3s linear;
 }
 
     div#categories a.selected {
@@ -101,6 +104,10 @@ div#categories a {
     div#categories a.selected:hover {
         background-color: #666;
     }
+
+
+
+
 
 div#header div.title, div.item h3, div.item h4, div.pager a {
     font: bold 1em "Arial Narrow", "Franklin Gothic Medium", Arial;
@@ -155,6 +162,7 @@ div.pager {
     border-top: 2px solid silver;
     padding: .5em 0 0 0;
     margin-top: 1em;
+    transition: 1s linear;
 }
 
     div.pager a {
