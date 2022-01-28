@@ -13,7 +13,7 @@ Pod kategoriami znajduje się przycisk „Administrator”,
 po kliknięciu którego możesz przejść do strony administratora. 
 Ale najpierw musisz się zalogować: 
 
-name: admin1234 
+name: admin1234 				
 password: 1234qwer
 
 Strona administratora przechowuje informacje o zamówieniach, a także listę produktów, które można zmienić.
